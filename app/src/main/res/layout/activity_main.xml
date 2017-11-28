@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City" />
+
+    <TextView
+        android:id="@+id/txtWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather" />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desc" />
+
+    <TextView
+        android:id="@+id/txtTempMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Min" />
+
+    <TextView
+        android:id="@+id/txtTempMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Max" />
+</LinearLayout>
